@@ -9,9 +9,14 @@ First, let’s view the contents of our global Git configuration file. To do so 
 
 For our purposes, we are only interested in the user.name, user.email, and init.defaultBranch variables.
 
-```$git config --global user.name “<name>”```
+`$git config --global user.name “<name>”`
 
-```$git config --global user.email “<email>”```
+`$git config --global user.email “<email>”`
+
+`$git config --global init.defaultBranch “<branch_name>”`
+
+
+
 
 repository is represented by a hidden directory called .git that exists within a project directory and it contains all the data on the changes that have been made to the files in a project.
 
