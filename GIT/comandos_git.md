@@ -61,3 +61,18 @@ Create + switch
 Integrate changes from one branch into another branch
 
 `git merge <branch>`
+
+
+`git remote add origin  <http url>`
+
+`git pull origin <branch_name>`
+
+**  cuando les de error para sync
+
+`git pull origin main --allow-unrelated-histories`
+
+
+Finalizar con Push
+
+`git push origin <branch_name>`
+
